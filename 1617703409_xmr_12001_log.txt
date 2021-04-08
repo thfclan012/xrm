@@ -1,0 +1,34 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       5.1/16.0 GB (32%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12001 
+ * OPENCL       disabled
+ * CUDA         disabled
+[2021-04-06 13:03:31.521]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-06 13:03:31.522]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:03:31.522]  cpu      use argon2 implementation AVX2
+[2021-04-06 13:03:31.522]  msr      service WinRing0_1_2_0 already exists
+[2021-04-06 13:03:31.523]  msr      service path: "\??\C:\minerstat-windows\cli\lib\LibreHardwareMonitorLib.sys"
+[2021-04-06 13:03:31.822]  msr      register values for "ryzen_17h" preset have been set successfully (300 ms)
+[2021-04-06 13:03:31.823]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-06 13:03:31.823]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (0 ms)
+[2021-04-06 13:03:34.832]  randomx  dataset ready (3009 ms)
+[2021-04-06 13:03:34.832]  cpu      use profile  rx  (9 threads) scratchpad 2048 KB
+[2021-04-06 13:03:34.847]  cpu      READY threads 9/9 (9) huge pages 100% 9/9 memory 18432 KB (15 ms)
+[2021-04-06 13:03:45.409]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:03:50.440]  cpu      accepted (1/0) diff 400015 (78 ms)
+[2021-04-06 13:04:08.862]  signal   SIGHUP received, exiting
+[2021-04-06 13:04:08.864]  cpu      stopped (2 ms)
+[2021-04-06 13:04:08.864]  msr      service WinRing0_1_2_0 already exists
+[2021-04-06 13:04:08.864]  msr      service path: "\??\C:\minerstat-windows\cli\lib\LibreHardwareMonitorLib.sys"

@@ -1,0 +1,37 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       6.4/16.0 GB (40%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12000 
+ * OPENCL       disabled
+ * CUDA         disabled
+[2021-04-06 16:00:21.844]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-06 16:00:21.845]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 16:00:21.845]  cpu      use argon2 implementation AVX2
+[2021-04-06 16:00:22.091]  msr      register values for "ryzen_17h" preset have been set successfully (246 ms)
+[2021-04-06 16:00:22.091]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-06 16:00:22.092]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (1 ms)
+[2021-04-06 16:00:25.225]  randomx  dataset ready (3133 ms)
+[2021-04-06 16:00:25.225]  cpu      use profile  *  (8 threads) scratchpad 2048 KB
+[2021-04-06 16:00:25.226]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (1 ms)
+[2021-04-06 16:00:40.773]  cpu      accepted (1/0) diff 400015 (75 ms)
+[2021-04-06 16:00:54.112]  cpu      accepted (2/0) diff 400015 (75 ms)
+[2021-04-06 16:01:15.627]  cpu      accepted (3/0) diff 400015 (75 ms)
+[2021-04-06 16:01:26.635]  miner    speed 10s/60s/15m 4707.1 4610.2 n/a H/s max 4707.1 H/s
+[2021-04-06 16:01:41.129]  miner    paused, press  r  to resume
+[2021-04-06 16:01:43.436]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 16:02:25.020]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 16:02:27.905]  miner    speed 10s/60s/15m n/a 1029.5 n/a H/s max 4773.7 H/s
+[2021-04-06 16:03:29.068]  miner    speed 10s/60s/15m n/a n/a n/a H/s max 4773.7 H/s
+[2021-04-06 16:04:19.577]  signal   SIGHUP received, exiting
+[2021-04-06 16:04:19.752]  cpu      stopped (174 ms)

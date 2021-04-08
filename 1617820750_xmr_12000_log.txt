@@ -1,0 +1,40 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       8.0/16.0 GB (50%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12000 
+ * OPENCL       disabled
+ * CUDA         10.2/11.3/6.5.0
+ * NVML         11.465.89/465.89 press e for health report
+ * CUDA GPU     #0 29:00.0 NVIDIA GeForce GTX 1650 SUPER 1725/6001 MHz smx:20 arch:75 mem:3302/4096 MB
+[2021-04-07 21:39:34.990]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-07 21:39:34.991]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-07 21:39:34.991]  cpu      use argon2 implementation AVX2
+[2021-04-07 21:39:34.992]  msr      service WinRing0_1_2_0 already exists
+[2021-04-07 21:39:34.992]  msr      service path: "\??\C:\minerstat-windows\cli\lib\LibreHardwareMonitorLib.sys"
+[2021-04-07 21:39:35.169]  msr      register values for "ryzen_17h" preset have been set successfully (177 ms)
+[2021-04-07 21:39:35.169]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-07 21:39:35.172]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (3 ms)
+[2021-04-07 21:39:38.149]  randomx  dataset ready (2976 ms)
+[2021-04-07 21:39:38.149]  nvidia   use profile  rx  (1 thread) scratchpad 2048 KB
+|  # | GPU |  BUS ID | INTENSITY | THREADS | BLOCKS | BF |  BS | MEMORY | NAME
+|  0 |   0 | 29:00.0 |       544 |      32 |     17 |  6 |  25 |   1088 | NVIDIA GeForce GTX 1650 SUPER
+[2021-04-07 21:39:38.357]  nvidia   READY threads 1/1 (207 ms)
+[2021-04-07 21:40:07.731]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-07 21:40:37.249]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-07 21:40:39.191]  nvidia   #0 29:00.0  67W 52C 2025/6374 MHz fan0:45%
+[2021-04-07 21:40:39.191]  miner    speed 10s/60s/15m 446.9 n/a n/a H/s max 451.5 H/s
+[2021-04-07 21:41:20.947]  signal   Ctrl+C received, exiting
+[2021-04-07 21:41:21.945]  nvidia   stopped (930 ms)
+[2021-04-07 21:41:22.065]  msr      service WinRing0_1_2_0 already exists
+[2021-04-07 21:41:22.066]  msr      service path: "\??\C:\minerstat-windows\cli\lib\LibreHardwareMonitorLib.sys"

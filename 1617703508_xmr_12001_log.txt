@@ -1,0 +1,64 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       5.1/16.0 GB (32%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12001 
+ * OPENCL       disabled
+ * CUDA         disabled
+[2021-04-06 13:05:10.877]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-06 13:05:10.877]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:05:10.877]  cpu      use argon2 implementation AVX2
+[2021-04-06 13:05:10.878]  msr      service WinRing0_1_2_0 already exists
+[2021-04-06 13:05:10.878]  msr      service path: "\??\C:\minerstat-windows\cli\lib\LibreHardwareMonitorLib.sys"
+[2021-04-06 13:05:11.167]  msr      register values for "ryzen_17h" preset have been set successfully (289 ms)
+[2021-04-06 13:05:11.167]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-06 13:05:11.167]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (0 ms)
+[2021-04-06 13:05:14.201]  randomx  dataset ready (3033 ms)
+[2021-04-06 13:05:14.201]  cpu      use profile  rx  (9 threads) scratchpad 2048 KB
+[2021-04-06 13:05:14.209]  cpu      READY threads 9/9 (9) huge pages 100% 9/9 memory 18432 KB (8 ms)
+[2021-04-06 13:05:42.339]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:06:00.363]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:06:15.609]  miner    speed 10s/60s/15m 5636.9 5633.8 n/a H/s max 5717.8 H/s
+[2021-04-06 13:06:24.598]  cpu      accepted (1/0) diff 400015 (83 ms)
+[2021-04-06 13:06:37.529]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:06:55.126]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:07:00.712]  cpu      accepted (2/0) diff 400015 (73 ms)
+[2021-04-06 13:07:17.042]  miner    speed 10s/60s/15m 5675.6 5649.7 n/a H/s max 5717.8 H/s
+[2021-04-06 13:07:55.705]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:08:12.742]  cpu      accepted (3/0) diff 400015 (75 ms)
+[2021-04-06 13:08:18.475]  miner    speed 10s/60s/15m 5662.2 5668.9 n/a H/s max 5717.8 H/s
+[2021-04-06 13:08:26.818]  cpu      accepted (4/0) diff 400015 (74 ms)
+[2021-04-06 13:08:42.715]  cpu      accepted (5/0) diff 400015 (75 ms)
+[2021-04-06 13:09:05.166]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:09:13.860]  cpu      accepted (6/0) diff 400015 (75 ms)
+[2021-04-06 13:09:19.907]  miner    speed 10s/60s/15m 5646.5 5650.1 n/a H/s max 5717.8 H/s
+[2021-04-06 13:10:21.340]  miner    speed 10s/60s/15m 5643.4 5647.0 n/a H/s max 5717.8 H/s
+[2021-04-06 13:10:28.124]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:11:16.542]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:11:22.758]  miner    speed 10s/60s/15m 5641.4 5640.4 n/a H/s max 5717.8 H/s
+[2021-04-06 13:11:44.854]  cpu      accepted (7/0) diff 400015 (76 ms)
+[2021-04-06 13:12:24.190]  miner    speed 10s/60s/15m 5613.2 5627.1 n/a H/s max 5717.8 H/s
+[2021-04-06 13:12:33.413]  cpu      accepted (8/0) diff 400015 (80 ms)
+[2021-04-06 13:12:34.118]  cpu      accepted (9/0) diff 400015 (90 ms)
+[2021-04-06 13:13:25.623]  miner    speed 10s/60s/15m 5630.3 5627.2 n/a H/s max 5717.8 H/s
+[2021-04-06 13:14:11.068]  cpu      accepted (10/0) diff 400015 (76 ms)
+[2021-04-06 13:14:27.056]  miner    speed 10s/60s/15m 5626.8 5627.6 n/a H/s max 5717.8 H/s
+[2021-04-06 13:15:02.542]  cpu      accepted (11/0) diff 400015 (74 ms)
+[2021-04-06 13:15:28.489]  miner    speed 10s/60s/15m 5624.1 5624.8 n/a H/s max 5717.8 H/s
+[2021-04-06 13:16:16.856]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:16:29.921]  miner    speed 10s/60s/15m 5611.2 5617.9 n/a H/s max 5717.8 H/s
+[2021-04-06 13:16:35.965]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 13:16:57.197]  cpu      accepted (12/0) diff 400015 (75 ms)
+[2021-04-06 13:17:21.825]  cpu      accepted (13/0) diff 400015 (78 ms)
+[2021-04-06 13:17:31.354]  miner    speed 10s/60s/15m 5553.0 5483.1 n/a H/s max 5717.8 H/s
+[2021-04-06 13:18:32.787]  miner    speed 10s/60s/15m 5429.6 5441.6 n/a H/s max 5717.8 H/s

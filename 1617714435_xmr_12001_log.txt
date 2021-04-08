@@ -1,0 +1,31 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       6.3/16.0 GB (40%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12001 
+ * OPENCL       disabled
+ * CUDA         disabled
+[2021-04-06 16:07:18.078]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-06 16:07:18.078]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 16:07:18.078]  cpu      use argon2 implementation AVX2
+[2021-04-06 16:07:18.399]  msr      register values for "ryzen_17h" preset have been set successfully (321 ms)
+[2021-04-06 16:07:18.400]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-06 16:07:18.404]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (1 ms)
+[2021-04-06 16:07:21.518]  randomx  dataset ready (3113 ms)
+[2021-04-06 16:07:21.518]  cpu      use profile  *  (8 threads) scratchpad 2048 KB
+[2021-04-06 16:07:21.519]  cpu      READY threads 8/8 (8) huge pages 100% 8/8 memory 16384 KB (1 ms)
+[2021-04-06 16:07:25.288]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 16:07:57.091]  cpu      accepted (1/0) diff 400015 (77 ms)
+[2021-04-06 16:08:01.488]  cpu      accepted (2/0) diff 400015 (91 ms)
+[2021-04-06 16:08:12.145]  signal   SIGHUP received, exiting
+[2021-04-06 16:08:12.150]  cpu      stopped (3 ms)

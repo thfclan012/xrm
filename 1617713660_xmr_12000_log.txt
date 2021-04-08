@@ -1,0 +1,36 @@
+ * ABOUT        XMRig/6.10.0 MSVC/2019
+ * LIBS         libuv/1.41.0 OpenSSL/1.1.1j hwloc/2.4.1
+ * HUGE PAGES   permission granted
+ * 1GB PAGES    unavailable
+ * CPU          AMD Ryzen 5 3600 6-Core Processor (1) 64-bit AES
+                L2:3.0 MB L3:32.0 MB 6C/12T NUMA:1
+ * MEMORY       6.5/16.0 GB (41%)
+                DIMM_A0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+                DIMM_B0: 8 GB DDR4 @ 3200 MHz F4-3200C16-8GIS
+ * MOTHERBOARD  Micro-Star International Co., Ltd. - B450M-A PRO MAX (MS-7C52)
+ * DONATE       1%
+ * ASSEMBLY     auto:ryzen
+ * POOL #1      monero.kryptex.network:7777 coin monero
+ * COMMANDS     hashrate, pause, resume, results, connection
+ * HTTP API     127.0.0.1:12000 
+ * OPENCL       disabled
+ * CUDA         10.2/11.3/6.5.0
+ * NVML         11.465.89/465.89 press e for health report
+ * CUDA GPU     #0 29:00.0 NVIDIA GeForce GTX 1650 SUPER 1725/6001 MHz smx:20 arch:75 mem:3302/4096 MB
+[2021-04-06 15:54:23.854]  net      use pool monero.kryptex.network:7777  157.90.32.66
+[2021-04-06 15:54:23.855]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 15:54:23.855]  cpu      use argon2 implementation AVX2
+[2021-04-06 15:54:24.078]  msr      register values for "ryzen_17h" preset have been set successfully (223 ms)
+[2021-04-06 15:54:24.079]  randomx  init dataset algo rx/0 (9 threads) seed ae2b3c3b6e013f9c...
+[2021-04-06 15:54:24.082]  randomx  allocated 2336 MB (2080+256) huge pages 100% 1168/1168 +JIT (3 ms)
+[2021-04-06 15:54:26.088]  net      new job from monero.kryptex.network:7777 diff 400015 algo rx/0 height 0
+[2021-04-06 15:54:27.148]  randomx  dataset ready (3066 ms)
+[2021-04-06 15:54:27.148]  cpu      use profile  rx  (9 threads) scratchpad 2048 KB
+[2021-04-06 15:54:27.149]  nvidia   use profile  rx  (1 thread) scratchpad 2048 KB
+|  # | GPU |  BUS ID | INTENSITY | THREADS | BLOCKS | BF |  BS | MEMORY | NAME
+|  0 |   0 | 29:00.0 |       544 |      32 |     17 |  6 |  25 |   1088 | NVIDIA GeForce GTX 1650 SUPER
+[2021-04-06 15:54:27.160]  cpu      READY threads 9/9 (9) huge pages 100% 9/9 memory 18432 KB (12 ms)
+[2021-04-06 15:54:27.416]  nvidia   READY threads 1/1 (266 ms)
+[2021-04-06 15:54:44.273]  signal   SIGHUP received, exiting
+[2021-04-06 15:54:44.276]  cpu      stopped (2 ms)
+[2021-04-06 15:54:44.759]  nvidia   stopped (483 ms)
